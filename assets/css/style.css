@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* tophead section start */
+
+.tophead{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(16, 85, 16);
+    display: flex;
+    padding: 0px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.tophead ul li{
+    display: inline-block;
+    color: #fff;
+    margin: 0px 3px;
+}
+.tophead ul li a{
+    color: rgb(146, 199, 159);
+}
+/* tophead section end */
+/* header section start */
+header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(8, 158, 8);
+    
+}
+header h1{
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 30px;
+    display: inline-block;
+  
+}
+header p{
+    color: #fff;
+    display: inline-block;
+    padding:0px 10px;
+}
+
+/* header section end */
+/* navbar start */
+nav{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(140, 228, 140);
+   
+    
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 30px;  
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+nav ul li a:hover{
+    font-size: 20px;
+    color: #fff;
+    transition: 0.3s linear;
+}
+
+/* navbar end */
+
+/* content section start  */
+
+section{
+    width: 100%;
+}
+section main{
+    float: left;
+    padding: 20px 30px;
+    width: 80%;
+    background-color: bisque;
+}
+section main h4{
+    padding: 20px 30px;
+}
+#alian{
+    padding: 15px 0px;
+}
+section main ul{
+    padding-left: 40px;
+}
+#para1{
+    padding: 30px 0px;
+}
+#para2{
+    padding: 20px 0px;
+}
+main ol{
+    padding: 0px 70px;
+}
+h5{
+    padding: 15px 70px;
+}
+#unorder{
+    padding: 10px 70px;
+}
+section aside{
+    float: left;
+    width: 20%;
+    background-color: rgb(162, 179, 166);
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.links{
+    /* font-weight: bold; */
+    padding-top: 20px;
+ 
+}
+aside ul li{
+ list-style: none;
+ 
+ 
+}
+aside ul li a {
+    text-decoration: none;
+    color: #000;
+}
+aside ul li ul li{
+    padding-left: 20px;
+}
+/* content section end */
+
+/* footer section start */
+
+footer{
+    width: 100%;
+    background-color:rgb(8, 158, 8);
+    display: flex;
+    justify-content:space-evenly;
+    padding-bottom: 20px;
+
+}
+footer ul li{
+  list-style: none;
+  color: #fff;
+}
+footer ul h3{
+    padding-top: 20px;
+    color: rgb(146, 199, 159);
+}
+
+/* footer section end */
